@@ -24,7 +24,7 @@ export const FlipDate = ({ value }) => {
   }, [value]);
 
   useEffect(() => {
-    const deadline = new Date( "August 10, 2022"
+    const deadline = new Date( "August 07, 2022"
     );
 
     const counter = Tick.count.down(deadline, {
